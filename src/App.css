@@ -1,0 +1,10 @@
+* {
+  font-family: Roboto;
+  color: #fff;
+  
+}
+
+.app-bg{
+  background: linear-gradient(to bottom, #800000, #000);
+  background-size: cover;
+}

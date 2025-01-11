@@ -1,0 +1,24 @@
+.nav-bg {
+    background:linear-gradient(to bottom,#800000, #760101);
+    box-sizing: border-box !important;
+    margin:0px;
+    
+}
+.nav-links-con{
+    margin-left: auto !important;
+}
+.nav-link-item {
+    color:#fff;
+    margin-right:20px;
+}
+.nav-link-item:hover{
+    text-decoration:none !important;
+   
+}
+.nav-logo{
+    width:70px;
+}
+
+.active{
+    font-weight: bold;
+}

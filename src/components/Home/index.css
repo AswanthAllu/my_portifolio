@@ -1,0 +1,44 @@
+.home-bg{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    text-align:center;
+}
+.profile-pic{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.head{
+    font-weight: Bolder;
+    font-size: 34px;
+    
+}
+span{
+    color:#da1b1b;
+    font-weight: bold;
+    font-size: 37px;
+}
+.intro-para{
+    font-size: 20px;
+    color:#929393;
+    margin:40px;
+}
+.fade-in-to-top{
+    animation: fadeIntoTop 1.5s;
+}
+@keyframes fadeIntoTop {
+    from{
+        opacity:0;
+        transform :translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+

@@ -1,0 +1,45 @@
+
+.resume-button-con{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background-color: rgba(0,0,0,0.5);
+    border:3px solid #800000;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+    color:#fff;
+    transition: transform 0.3s;
+    text-align:center;
+    min-width:129px;
+    height:47px;
+    padding-top:5px;
+    padding-right:5px;
+
+}
+.resume-button{
+    background:transparent ;
+    border: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.resume-button-con:hover{
+    background:#800000;
+    font-weight: bolder;
+    
+    transform: scale(1.2);
+}
+.fade-in-to-right {
+    animation: fadeInToRight 1.5s ;
+
+}
+@keyframes fadeInToRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
