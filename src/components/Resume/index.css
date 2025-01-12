@@ -3,14 +3,13 @@
     position:fixed;
     bottom:20px;
     right:20px;
-    background-color: rgba(0,0,0,0.5);
-    border:3px solid #800000;
+    background-color:#800000;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     color:#fff;
     transition: transform 0.3s;
     text-align:center;
-    min-width:129px;
+    min-width:133px;
     height:47px;
     padding-top:5px;
     padding-right:5px;
@@ -21,9 +20,9 @@
     border: 0px;
     font-size: 20px;
     font-weight: bold;
+    margin-top:2px;
 }
 .resume-button-con:hover{
-    background:#800000;
     font-weight: bolder;
     transform: scale(1.2);
 }
