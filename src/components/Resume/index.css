@@ -7,7 +7,6 @@
     border:3px solid #800000;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-
     color:#fff;
     transition: transform 0.3s;
     text-align:center;
@@ -26,7 +25,6 @@
 .resume-button-con:hover{
     background:#800000;
     font-weight: bolder;
-    
     transform: scale(1.2);
 }
 .fade-in-to-right {
@@ -36,7 +34,7 @@
 @keyframes fadeInToRight {
     from {
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateX(100px);
     }
     to {
         opacity: 1;

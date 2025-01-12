@@ -1,0 +1,32 @@
+.projects-bg{
+    text-align: center;
+
+}
+.tabs-con{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+}
+.activeTab{
+    text-decoration: underline;
+    font-size:23px;
+    margin:20px;
+    cursor:pointer;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+.unActiveTab{
+    opacity:0.9;
+    font-size: 20px;
+    margin:20px;
+    cursor:pointer;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.project-items-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+   
+
+}

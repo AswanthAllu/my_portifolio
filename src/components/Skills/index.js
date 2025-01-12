@@ -16,7 +16,7 @@ class Skills extends Component {
         return (
             <div>
                 <div className="skills-bg mt-5">
-                    <h1>My Skills</h1> {/* Missing closing tag added */}
+                    <h1>My Skills</h1>
                     <div className="skills-items-con fade-in-to-top ">
                         <div className="skill-item">
                             <FaHtml5 size={40} />
