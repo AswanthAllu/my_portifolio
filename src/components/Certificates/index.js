@@ -123,7 +123,7 @@ class Certificates extends Component{
         <div className="certificates-items-con mb-5" >
            {
               filteredCertificatesList.map(each => (
-                <a href ={each.certificateLink} target="__blanck" >
+                <a href ={each.certificateLink} target="_blank" >
                       <img src={each.imgUrl} alt="certificate" className="certificate-image fade-in-to-top" /> 
                 </a>
                
