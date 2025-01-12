@@ -1,0 +1,58 @@
+.certi-bg{
+    text-align: center;
+}
+.tabs-con{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+}
+.activeTab{
+    text-decoration: underline;
+    font-size:23px;
+    margin:20px;
+    cursor:pointer;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+.unActiveTab{
+    opacity:0.9;
+    font-size: 20px;
+    margin:20px;
+    cursor:pointer;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+.certificates-items-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+   
+
+}
+.fade-in-to-top {
+    animation: fadeInToTop 1.5s ;
+
+}
+@keyframes fadeInToTop {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.resume-con{
+    max-width: 120px;
+}
+.certificate-image {
+    height:240px;
+    width:88%;
+    border-radius: 10px;
+    margin: 25px;
+    transition: transform 0.3s;
+}
+.certificate-image:hover{
+   transform: scale(1.1);
+  
+}
