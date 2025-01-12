@@ -12,7 +12,7 @@
 @media (max-width:576px){
     .project-item-card{
         height:300px;
-        width:250px;
+        width:300px;
     }
 }
 .project-title{
@@ -21,11 +21,12 @@
     font-size: 24px;
 }
 .details-button{
-    background-color: #800000;
+    background-color:#800000;
     border-radius: 20px;
     border:0px;
-    height:37px;
-    width:80px;
+    font-size: 20px;
+    height:47px;
+    width:90px;
     transition:transform 0.3s;
 }
 .details-button:hover{
@@ -39,9 +40,9 @@
     border-radius:50%;
     border:0px;
     padding-bottom: 5px;
-    width:37px;
-    height: 37px;
-    margin-left:30px;
+    width:47px;
+    height: 47px;
+    margin-left:40px;
     transition:transform 0.3s;
 
 

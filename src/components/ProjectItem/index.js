@@ -9,7 +9,7 @@ const ProjectItem = (props) => {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgba(0,0,0,0.5) 100%), url(${ImagUrl})`,
+        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgba(0,0,0,0.9) 100%), url(${ImagUrl})`,
       }}
       className="project-item-card pb-3 fade-in-to-top"
     >
@@ -96,7 +96,7 @@ const ProjectItem = (props) => {
             rel="noopener noreferrer"
           >
             <button className="explore-icon-button">
-              <FaExternalLinkAlt size={12} />
+              <FaExternalLinkAlt size={15} />
             </button>
           </a>
         </div>
