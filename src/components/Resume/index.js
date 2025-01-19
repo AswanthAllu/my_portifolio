@@ -5,7 +5,7 @@ const Resume =()=>{
 
             <a href="/myResume.pdf" download="AswanthAllu_Resume.pdf" >
                 <div className="resume-button-con fade-in-to-right ">
-                    <button className='resume-button'>Resume</button>
+                    <div className='resume-button'>Resume</div>
                     <FaDownload size={25} />
                 </div>
             </a>

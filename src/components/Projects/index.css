@@ -7,21 +7,20 @@
     display:flex;
     justify-content:center;
 }
-.activeTab{
-    text-decoration: underline;
+.active-tab{
+    cursor: pointer;
+     border-bottom: 2px solid #fff;
     font-size:23px;
-    margin:20px;
-    cursor:pointer;
     transition: transform 0.3s ease, font-size 0.3s ease;
+    margin:20px;
 }
-.unActiveTab{
+.unactive-tab{
+    margin:20px;
     opacity:0.9;
+    cursor: pointer;
     font-size: 20px;
-    margin:20px;
-    cursor:pointer;
     transition: transform 0.3s ease, font-size 0.3s ease;
 }
-
 .project-items-con{
     display: flex;
     justify-content: center;

@@ -117,18 +117,16 @@ class Projects extends Component {
     return (
       <div className="projects-bg mt-5">
         <h1>My Projects</h1>
-        <div className="tabs-con">
-          {projectsTabs.map((eachTab) => (
-            <h2
-              key={eachTab.tabId}
-              className={
-                eachTab.tabId === activeTabId ? "activeTab" : "unActiveTab"
-              }
-              onClick={() => this.updateTablIdFn(eachTab.tabId)}
-            >
-              {eachTab.displayTab}
+        
+
+        <div  className="tabs-con">
+          {projectsTabs.map(eachTab => (
+            <h2 key={eachTab.tabId} className={eachTab.tabId === activeTabId ? 'active-tab' :'unactive-tab'} onClick={() => this.updateTablIdFn(eachTab.tabId)}>
+            {eachTab.displayTab}
             </h2>
-          ))}
+          ))
+           
+          }
         </div>
         <div className="project-items-con mb-5">
           {filteredProjectsList.map((each) => (
