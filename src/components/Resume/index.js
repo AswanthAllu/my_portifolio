@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa6";
 const Resume =()=>{
     return (
 
-            <a href="/myResume.pdf" download="AswanthAllu_Resume.pdf" >
+            <a href="https://drive.google.com/file/d/1-YZ0OBFJ5pWZTvHAte2ICFdQTNd55yat/view?usp=drivesdk"  >
                 <div className="resume-button-con fade-in-to-right ">
                     <div className='resume-button'>Resume</div>
                     <FaDownload size={25} />
