@@ -15,56 +15,56 @@ const certificatesTabsList=[
 const certificatesList=[
     {
         id:'c1',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D4E2DAQFwJjTJGvJc8Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1710776879156?e=1737298800&v=beta&t=fnbXN8DnFUJYRrCe8HMDmoAhrYRtmOjOTvuWdDdoqYU',
+        imgUrl:'https://media-content.ccbp.in/certificates/share/NSBNAVRFZN.png',
         category:'technical',
         certificateLink:'https://certificates.ccbp.in/academy/static-website?id=NSBNAVRFZN'
     },
     {
         id:'c2',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D4E2DAQHYituMaMpI-g/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1710777128599?e=1737298800&v=beta&t=GMTY4FYDrEAVTOyuzSzXfV-vf9dUx2RWnUj7YnSY0W8',
+        imgUrl:'https://media-content.ccbp.in/certificates/share/SSSCOQXRFV.png',
         category:'technical',
         certificateLink:'https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=SSSCOQXRFV'
     },
     {
         id:'c3',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D4E2DAQHsJEVMv7bV0Q/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1710777343658?e=1737298800&v=beta&t=pIPsFDxxCFx2LP1WG4EQbXDRoZO2HpB_wm-RWBXvAhI',
+        imgUrl:'https://media-content.ccbp.in/certificates/share/AHGVDTBRCE.png',
         category:'technical',
         certificateLink:'https://certificates.ccbp.in/academy/dynamic-web-application?id=AHGVDTBRCE'
     },
     {
         id:'c4',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D562DAQGXWZKZnu-jCQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1713020365864?e=1737298800&v=beta&t=J4NezdfPG28nVsZM-gOYC6gmPSOlMPbXvjZNmjekaxY',
+        imgUrl:'https://media-content.ccbp.in/certificates/share/SXTGXCLFNM.png',
         category:'technical',
         certificateLink:'https://certificates.ccbp.in/academy/introduction-to-databases?id=SXTGXCLFNM'
     },
     {
         id:'c5',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D562DAQEGrJo4sPlBAg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1720436422191?e=1737298800&v=beta&t=DCXTFhrMYrs4l-yL-GcexrEinYtOLwFzehv7srmqK2E',
+        imgUrl:'https://media-content.ccbp.in/certificates/share/ZDEBRWTANN.png',
         category:'technical',
         certificateLink:'https://certificates.ccbp.in/academy/javascript-essentials?id=ZDEBRWTANN'
     },
     {
         id:'c6',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D562DAQF_Soa9im0nmg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1724597775290?e=1737298800&v=beta&t=rQnol8TyEBtQJ3x5hPURag22P6bPm9xkMpOXjODIudE',
+        imgUrl:'https://media-content.ccbp.in/certificates/share/KWLAEUXISA.png',
         category:'technical',
         certificateLink:'https://certificates.ccbp.in/academy/developer-foundations?id=KWLAEUXISA'
     },
    
     {
         id:'c7',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D562DAQEBExiDTHALKg/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1721266130743?e=1737298800&v=beta&t=qokUjAnxtrKaj0sFcL6ScihGQU4hLuVIVQwqUiq2txY',
+        imgUrl:'https://i.imgur.com/w6wO3eU.png',
         category:'technical',
         certificateLink:'https://www.linkedin.com/in/jaya-aswanth-allu/details/certifications/1721266484221/single-media-viewer/?profileId=ACoAAD0lscoBjUYDwnt7UjPXI7H5dm_zHo5qf1U'
     },
     {
         id:'c8',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D562DAQGTX0SgAcYnHQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1720437601217?e=1737298800&v=beta&t=Wz8bzjYK8cyfA5ehwefp9PHmBBF5cmbC9kmq1Y5-kEM',
+        imgUrl:'https://cdn1.ccbp.in/misc/da-workshop-completion-certificate/HUM87X4XYZ.png',
         category:'technical',
         certificateLink:'https://cdn1.ccbp.in/misc/da-workshop-completion-certificate/HUM87X4XYZ.png'
     },
     {
         id:'c9',
-        imgUrl:'https://media.licdn.com/dms/image/v2/D562DAQHyNv04YLTk5w/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1720436945506?e=1737298800&v=beta&t=Rp9z_LklUsn8VsUStoUPVDgojhC1mZEuzykjb5QAmRo',
+        imgUrl:'https://cdn1.ccbp.in/misc/aws-workshop-completion-certificate/G082G1NCZU.png',
         category:'technical',
         certificateLink:'https://cdn1.ccbp.in/misc/aws-workshop-completion-certificate/G082G1NCZU.png'
     },
