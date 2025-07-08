@@ -126,12 +126,11 @@ class Certificates extends Component{
                 <a href ={each.certificateLink} target="_blank" >
                       <img src={each.imgUrl} alt="certificate" className="certificate-image fade-in-to-top" /> 
                 </a>
-               
               ))
            }
+        </div>  
         </div>
-                </div>
-                <Footer />
+            <Footer />
             </div>
         )
     }
